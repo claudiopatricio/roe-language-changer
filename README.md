@@ -4,7 +4,7 @@ This is a script to automatically create the bat to launch Ring of Elysium in En
 
 ### How to create executable (bat)
 
-* 1. [Download language_changer.bat]()
+* 1. [Download language_changer.bat](https://github.com/claudiopatricio/roe-language-changer/archive/v1.0.zip)
 * 2. Run as administrator (It will create a new file called **roe_en.bat**)
 * 3. Copy **roe_en.bat** to your desktop and launch it to run the game in English.
 
