@@ -24,11 +24,12 @@ WMIC.EXE    /? >NUL 2>&1 || GOTO NOT_AVAILABLE
 
 
 :: Main Script
+cd /d %~dp0
 FOR /F "usebackq tokens=1* delims=" %%i IN (`wmic process WHERE "Name='Europa_Client.exe'" get Commandline ^| FINDSTR /I /C:"Europa_Client"`) DO (
     IF NOT %%i=="" (
         set _var=%%i
         @ECHO @echo off > roe_en.bat
-        @ECHO !_var:th=en! >> roe_en.bat
+        @ECHO !_var:th -server=en -server! >> roe_en.bat
         @ECHO exit >> roe_en.bat
         @ECHO Batch file 'roe_en.bat' created with SUCCESS^^!^^!^^!
         
