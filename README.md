@@ -1,20 +1,20 @@
 ## Ring of Elysium Language Changer
 
-This is a bat script to automatically create the bat to launch Ring of Elysium in English.
+This is a script to automatically create the bat to launch Ring of Elysium in English.
 
 ### How to create executable (bat)
 
-* 1. Download language_changer.bat
-* 2. Run as administrator (It will create a new file called **roe_en.bat**
+* 1. [Download language_changer.bat]()
+* 2. Run as administrator (It will create a new file called **roe_en.bat**)
 * 3. Copy **roe_en.bat** to your desktop and launch it to run the game in English.
-* **Note:** You need the game to be running before running this script!
+**Note:** Start the game before running this script!
 
 ### How to download the game
 
-* 1. Go to https://www.garena.sg/gpc and click Download now
+* 1. Go to https://www.garena.sg/gpc and click "Download now"
 * 2. Install Garena
 * 3. Change region to Thailand (in Settings)
-* 4. Click ROE and Install
+* 4. Click ROE logo and Install
 
 # License
 Copyright (c) 2018 Cláudio Patrício
